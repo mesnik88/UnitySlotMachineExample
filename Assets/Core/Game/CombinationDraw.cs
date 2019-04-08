@@ -21,7 +21,6 @@ public class CombinationDraw : MonoBehaviour, Initable
         {
             lineRenderer.SetPosition(i, tileViews[i].transform.position);
         }
-        Invoke("Deactivate", 5);
     }
 
 }
